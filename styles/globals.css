@@ -15,6 +15,12 @@ a {
   box-sizing: border-box;
 }
 
+.pageTitle {
+  text-align: center;
+  margin: 16px 0px;
+  color: #555;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
