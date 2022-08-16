@@ -4,17 +4,14 @@ import Layout from '/components/layout/Layout';
 import Header from '/components/layout/Header';
 import Button from '../components/button/Button';
 
-export default function Index() {
+export default function Login() {
   return (
   <Layout>
     <Header />
     <div>
-      <h1 className="pageTitle">BODY</h1>
+      <h1 className="pageTitle">LOGIN</h1>
 
-      <a href='/login'>Go to Login</a>
-      <Button name="Button1"></Button>
-      <Button name="Button2"></Button>
-      <Button name="Button3"></Button>
+      <Button name="Login"></Button>
     </div>
   </Layout>
   );
